@@ -26,7 +26,8 @@ We have several packages which live in this repository. Changes are tracked sepa
 
 > A highly efficient logging framework that targets resource-constrained devices, like microcontrollers
 
-[defmt-next]: https://github.com/knurling-rs/defmt/compare/defmt-v0.3.9...main
+[defmt-next]: https://github.com/knurling-rs/defmt/compare/defmt-v0.3.10...main
+[defmt-v0.3.10]: https://github.com/knurling-rs/defmt/releases/tag/defmt-v0.3.10
 [defmt-v0.3.9]: https://github.com/knurling-rs/defmt/releases/tag/defmt-v0.3.9
 [defmt-v0.3.8]: https://github.com/knurling-rs/defmt/releases/tag/defmt-v0.3.8
 [defmt-v0.3.7]: https://github.com/knurling-rs/defmt/releases/tag/defmt-v0.3.7
@@ -48,7 +49,11 @@ We have several packages which live in this repository. Changes are tracked sepa
 
 ### [defmt-next]
 
-### [defmt-v0.3.9] (2024-11-27)
+### [defmt-v0.3.10] (2024-11-28)
+
+* [#xxx] Pin the defmt-macro crate to avoid incompatible versions being used together
+
+### [defmt-v0.3.9] (2024-11-27) (yanked)
 
 * [#889] Add script for book hosting
 * [#887] Fix interning example in the book
@@ -372,7 +377,8 @@ Initial release
 
 > Macros for [defmt](#defmt)
 
-[defmt-macros-next]: https://github.com/knurling-rs/defmt/compare/defmt-macros-v0.3.10...main
+[defmt-macros-next]: https://github.com/knurling-rs/defmt/compare/defmt-macros-v0.4.0...main
+[defmt-macros-v0.4.0]: https://github.com/knurling-rs/defmt/releases/tag/defmt-macros-v0.4.0
 [defmt-macros-v0.3.10]: https://github.com/knurling-rs/defmt/releases/tag/defmt-macros-v0.3.10
 [defmt-macros-v0.3.9]: https://github.com/knurling-rs/defmt/releases/tag/defmt-macros-v0.3.9
 [defmt-macros-v0.3.8]: https://github.com/knurling-rs/defmt/releases/tag/defmt-macros-v0.3.8
@@ -393,7 +399,11 @@ Initial release
 
 ### [defmt-macros-next]
 
-### [defmt-macros-v0.3.10] (2024-11-27)
+### [defmt-macros-v0.4.0] (2024-11-28)
+
+* [#xxx] Just a major version bump to stop it being used by older defmt versions.
+
+### [defmt-macros-v0.3.10] (2024-11-27) (yanked)
 
 ### [defmt-macros-v0.3.9] (2024-05-14)
 
